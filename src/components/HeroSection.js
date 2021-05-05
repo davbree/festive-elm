@@ -11,7 +11,7 @@ export default class HeroSection extends React.Component {
             <section id={_.get(section, 'section_id', null)} className="hero">
               <div className="container container--lg">
                 {_.get(section, 'title', null) && (
-                <h1 className="hero__title">{_.get(section, 'title', null)}</h1>
+                <h1 className="hero__title">{_.get(section, 'title', null)}???</h1>
                 )}
                 {_.get(section, 'content', null) && (
                 <div className="hero__body text-block">

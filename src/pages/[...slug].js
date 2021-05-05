@@ -10,6 +10,7 @@ class Page extends React.Component {
     render() {
         // every page can have different layout, pick the layout based
         // on the model of the page (_type in Sanity CMS)
+        console.log('render page')
         const componentName = _.get(this.props, 'page.__metadata.modelName');
         const PageLayout = pageLayouts[componentName];
         return <PageLayout {...this.props}/>;

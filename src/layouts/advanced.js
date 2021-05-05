@@ -8,7 +8,7 @@ export default class Advanced extends React.Component {
         return (
             <Layout {...this.props}>
             {(!_.get(this.props, 'page.frontmatter.hide_title', null)) && (
-            <header className="section section--header">
+            <header className="section section--header">zzz
               <div className="container container--lg">
                 <h1 className="section__title line-top">{_.get(this.props, 'page.frontmatter.title', null)}</h1>
                 {_.get(this.props, 'page.frontmatter.subtitle', null) && (
